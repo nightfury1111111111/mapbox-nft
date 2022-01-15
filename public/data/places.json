@@ -54,7 +54,7 @@
                         "thumbnail": "/assets/images/thumbnail/apartment/3/3.jpg"
                     }
                 ],
-                "type": "land",
+                "type": "apartment", // but how to changes all items? you know the answer lol. the old types need to be replaced with the new ones
                 "rooms": 1,
                 "area": 52,
                 "rent": 10900,
