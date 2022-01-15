@@ -6,14 +6,14 @@ class Sreach extends Component {
   render() {
     let {
       types,
-      // rooms,
+      rooms,
       areas,
       rents,
       deposits,
       slideOpen,
       onChangeSlide,
       onChangeType,
-      // onChangeRoom,
+      onChangeRoom,
       onChangeArea,
       onChangeRent,
       onChangeDeposit,
@@ -64,7 +64,7 @@ class Sreach extends Component {
               })}
             </div>
 
-            {/* <h6>Rooms</h6>
+            <h6>Rooms</h6>
 
             <div className="sc-form-group sc-grid-2">
               {rooms.map((room, index) => {
@@ -89,7 +89,7 @@ class Sreach extends Component {
                   </div>
                 );
               })}
-            </div>             */}
+            </div>            
 
             <h6>Area</h6>
 
