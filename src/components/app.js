@@ -21,11 +21,11 @@ class App extends Component {
       { slug: "store", name: "STORE", checked: true },
       { slug: "boat", name: "BOAT", checked: true },
       { slug: "yacht", name: "YACHT", checked: true }
-    ], // please update and run ok
+    ], // please update and run ok how could we filter the rooms? the buttons arent clickable? which button? the rooom options should have one two three like the previously. 
     rooms: [
-      { slug: "estate", name: "ESTATE", checked: true },
-      { slug: "apartment", name: "APARTMENT", checked: false },
-      { slug: "soltel", name: "SOLTEL", checked: true } 
+      { slug: "1", name: "1 Room", checked: true },
+      { slug: "2", name: "2 Rooms", checked: false },
+      { slug: "3", name: "3 Rooms", checked: false }   // before it, could you handle half payment now? ive only created one milestone and were 90% done
     ],//
     areas: {
       from: 30,
