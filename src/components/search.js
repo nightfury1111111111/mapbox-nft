@@ -6,14 +6,14 @@ class Sreach extends Component {
   render() {
     let {
       types,
-      rooms,
+      // rooms,
       areas,
       rents,
       deposits,
       slideOpen,
       onChangeSlide,
       onChangeType,
-      onChangeRoom,
+      // onChangeRoom,
       onChangeArea,
       onChangeRent,
       onChangeDeposit,

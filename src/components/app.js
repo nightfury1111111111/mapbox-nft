@@ -21,12 +21,12 @@ class App extends Component {
       { slug: "store", name: "STORE", checked: true },
       { slug: "boat", name: "BOAT", checked: true },
       { slug: "yacht", name: "YACHT", checked: true }
-    ], // please update and run ok how could we filter the rooms? the buttons arent clickable? which button? the rooom options should have one two three like the previously. 
+    ],
     rooms: [
-      { slug: "1", name: "1 Room", checked: true },
-      { slug: "2", name: "2 Rooms", checked: false },
-      { slug: "3", name: "3 Rooms", checked: false }   // before it, could you handle half payment now? ive only created one milestone and were 90% done
-    ],//
+      { slug: "one", name: "1 Room", checked: false },
+      { slug: "two", name: "2 Rooms", checked: false },
+      { slug: "any", name: "Any Rooms", checked: true } // please check again yes
+    ],
     areas: {
       from: 30,
       to: 150
@@ -60,8 +60,7 @@ class App extends Component {
 
     return (
       <div className="app">  
-      <h1>Updated code</h1> Ok let's copy and paste the type changes that you made and add it a newly forked main repo? Does that make sense?
-      Can you push and check updated code again? Sure
+      <h1>Updated code</h1> Can you see the room errors?
            
         <div id="app-map"></div>
         
