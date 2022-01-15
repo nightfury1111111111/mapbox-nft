@@ -59,9 +59,12 @@ class App extends Component {
     let lastIndex = numberOFPlaces - 1;
 
     return (
-      <div className="app">       
+      <div className="app">  
+      <h1>Updated code</h1> Ok let's copy and paste the type changes that you made and add it a newly forked main repo? Does that make sense?
+      Can you push and check updated code again? Sure
+           
         <div id="app-map"></div>
-        <h1>Updated code</h1>
+        
         <div className={this.getSlideClasses()}>
           <Search
             types={this.state.types}
