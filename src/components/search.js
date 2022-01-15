@@ -105,7 +105,7 @@ class Sreach extends Component {
               />
             </div>
 
-            <h6>Rent</h6>
+            <h6>RENT</h6>
 
             <div className="sc-form-group sc-grid-1">
               <InputRange
@@ -119,7 +119,7 @@ class Sreach extends Component {
               />
             </div>
 
-            <h6>Deposit</h6>
+            <h6>DONATION</h6>
 
             <div className="sc-form-group sc-grid-1">
               <InputRange

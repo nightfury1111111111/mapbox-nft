@@ -7,17 +7,26 @@ import Page from "./page";
 class App extends Component {
   state = {
     types: [
-      { slug: "house", name: "Land 🗺", checked: true },
-      { slug: "apartment", name: "SERVICES", checked: true },
-      { slug: "shared", name: "ESTATE", checked: true },
-      { slug: "dorm", name: "SolTel", checked: true }
-    ],
+      { slug: "land", name: "🗺 LAND", checked: true },
+      { slug: "services", name: " SERVICES", checked: true },
+      { slug: "estate", name: "ESTATE", checked: true },
+      { slug: "soltel", name: "SOLTEL", checked: true },
+      { slug: "solfood", name: "SOLFOOD", checked: true}, // You can paste it ok emoji will display first like in the screenshot I sent you
+      { slug: "apartment", name: "APARTMENT", checked: false },
+      { slug: "monument", name: "MONUMENT", checked: false },
+      { slug: "solmobiles", name: "SOLMOBILES", checked: false },   
+      { slug: "luv", name: "LUV", checked: true },
+      { slug: "stadium", name: "STADIUM", checked: true }, //this should work
+      { slug: "share", name: "SHARE", checked: true },
+      { slug: "store", name: "STORE", checked: true },
+      { slug: "boat", name: "BOAT", checked: true },
+      { slug: "yacht", name: "YACHT", checked: true }
+    ], // please update and run ok
     rooms: [
-      { slug: "one", name: "One", checked: false },
-      { slug: "two", name: "Two", checked: false },
-      { slug: "more", name: "More", checked: false },
-      { slug: "any", name: "Any", checked: true }
-    ],
+      { slug: "estate", name: "ESTATE", checked: true },
+      { slug: "apartment", name: "APARTMENT", checked: false },
+      { slug: "soltel", name: "SOLTEL", checked: true } 
+    ],//
     areas: {
       from: 30,
       to: 150
@@ -50,11 +59,8 @@ class App extends Component {
     let lastIndex = numberOFPlaces - 1;
 
     return (
-      <div className="app">
-        <h1>Updated code</h1>
+      <div className="app">       
         <div id="app-map"></div>
-can you update code and run?
-It have to show "UPdated code" text if it run correctly, yes one sec. Check this out
         <div className={this.getSlideClasses()}>
           <Search
             types={this.state.types}
