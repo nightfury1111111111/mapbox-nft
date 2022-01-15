@@ -4,7 +4,6 @@ import Mapcraft from "mapcraft";
 import Search from "./search";
 import Tour from "./tour";
 import Page from "./page";
-
 class App extends Component {
   state = {
     types: [
@@ -52,8 +51,10 @@ class App extends Component {
 
     return (
       <div className="app">
+        <h1>Updated code</h1>
         <div id="app-map"></div>
-
+can you update code and run?
+It have to show "UPdated code" text if it run correctly, yes one sec. Check this out
         <div className={this.getSlideClasses()}>
           <Search
             types={this.state.types}
