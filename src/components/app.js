@@ -4,28 +4,30 @@ import Mapcraft from "mapcraft";
 import Search from "./search";
 import Tour from "./tour";
 import Page from "./page";
+
 class App extends Component {
   state = {
     types: [
-      { slug: "house", name: "🗺 LAND", checked: true },
-      { slug: "shared", name: " SERVICES", checked: true },
-      { slug: "apartment", name: "ESTATE", checked: true },
+      { slug: "house", name: "LAND", checked: true },
+      { slug: "apartment", name: "SERVICES", checked: true },
+      { slug: "shared", name: "ESTATE", checked: true },
       { slug: "dorm", name: "SOLTEL", checked: true },
-      // { slug: "house", name: "SOLFOOD", checked: true}, // You can paste it ok emoji will display first like in the screenshot I sent you
-      // { slug: "apartment", name: "APARTMENT", checked: false },
-      // { slug: "shared", name: "MONUMENT", checked: false },
-      // { slug: "shared", name: "SOLMOBILES", checked: false },   
-      // { slug: "dorm", name: "LUV", checked: true },
-      // { slug: "dorm", name: "STADIUM", checked: true }, //this should work
-      // { slug: "share", name: "SHARE", checked: true },
-      // { slug: "house", name: "STORE", checked: true },
-      // { slug: "house", name: "BOAT", checked: true },
-      // { slug: "house", name: "YACHT", checked: true } /// can you update and check? yes smart decision Cna you check again? current 
+      { slug: "dorm", name: "SOLFOOD", checked: true },
+      { slug: "apartment", name: "APARTMENT", checked: false },
+      { slug: "shared", name: "MONUMENT", checked: false },
+      { slug: "shared", name: "SOLMOBILES", checked: false },   
+      { slug: "dorm", name: "LUV", checked: true },
+      { slug: "dorm", name: "STADIUM", checked: true }, 
+      { slug: "share", name: "SHARE", checked: true },
+      { slug: "house", name: "STORE", checked: true },
+      { slug: "house", name: "BOAT", checked: true },
+      { slug: "house", name: "YACHT", checked: true } 
     ],
     rooms: [
-      { slug: "one", name: "1 Room", checked: false },
-      { slug: "two", name: "2 Rooms", checked: false },
-      { slug: "any", name: "Any Rooms", checked: true } // The initial code worked, the quick fix is to copy and paste your updated changes to the existing code and this is finished. Im a coder I just didnt have time, so I can
+      { slug: "one", name: "One", checked: false },
+      { slug: "two", name: "Two", checked: false },
+      { slug: "more", name: "More", checked: false },
+      { slug: "any", name: "Any", checked: true }
     ],
     areas: {
       from: 30,
@@ -59,9 +61,9 @@ class App extends Component {
     let lastIndex = numberOFPlaces - 1;
 
     return (
-      <div className="app">                  
+      <div className="app">
         <div id="app-map"></div>
-        
+
         <div className={this.getSlideClasses()}>
           <Search
             types={this.state.types}

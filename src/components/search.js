@@ -19,7 +19,7 @@ class Sreach extends Component {
       onChangeDeposit,
       onChangeTour,
       getPlacesCount,
-      disableTour      
+      disableTour
     } = this.props;
 
     return (
@@ -89,7 +89,7 @@ class Sreach extends Component {
                   </div>
                 );
               })}
-            </div>            
+            </div>
 
             <h6>Area</h6>
 
@@ -105,7 +105,7 @@ class Sreach extends Component {
               />
             </div>
 
-            <h6>RENT</h6>
+            <h6>Rent</h6>
 
             <div className="sc-form-group sc-grid-1">
               <InputRange
