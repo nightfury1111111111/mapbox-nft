@@ -8,10 +8,10 @@ import Page from "./page";
 class App extends Component {
   state = {
     types: [
-      { slug: "house", name: "House", checked: true },
-      { slug: "apartment", name: "Apartment", checked: true },
-      { slug: "shared", name: "Shared", checked: true },
-      { slug: "dorm", name: "Dorm", checked: true }
+      { slug: "house", name: "Land 🗺", checked: true },
+      { slug: "apartment", name: "SERVICES", checked: true },
+      { slug: "shared", name: "ESTATE", checked: true },
+      { slug: "dorm", name: "SolTel", checked: true }
     ],
     rooms: [
       { slug: "one", name: "One", checked: false },
