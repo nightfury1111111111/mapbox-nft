@@ -61,6 +61,7 @@ class App extends Component {
     return (
       <div className="app">       
         <div id="app-map"></div>
+        <h1>Updated code</h1>
         <div className={this.getSlideClasses()}>
           <Search
             types={this.state.types}
