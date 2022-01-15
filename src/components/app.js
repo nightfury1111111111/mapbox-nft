@@ -8,20 +8,20 @@ import Page from "./page";
 class App extends Component {
   state = {
     types: [
-      { slug: "house", name: "LAND", checked: true },
-      { slug: "apartment", name: "SERVICES", checked: true },
-      { slug: "shared", name: "ESTATE", checked: true },
-      { slug: "dorm", name: "SOLTEL", checked: true },
-      { slug: "dorm", name: "SOLFOOD", checked: true },
-      { slug: "apartment", name: "APARTMENT", checked: false },
-      { slug: "shared", name: "MONUMENT", checked: false },
-      { slug: "shared", name: "SOLMOBILES", checked: false },   
-      { slug: "dorm", name: "LUV", checked: true },
-      { slug: "dorm", name: "STADIUM", checked: true }, 
+      { slug: "house", name: "🗺 LAND", checked: true },
+      { slug: "apartment", name: "💈 SERVICES", checked: true },
+      { slug: "shared", name: "🏠 ESTATE", checked: true },
+      { slug: "dorm", name: "🏩 SOLTEL", checked: true },
+      { slug: "dorm", name: "🍔 SOLFOOD", checked: true },
+      { slug: "apartment", name: "🏢 APARTMENT", checked: false },
+      { slug: "shared", name: "🗽 MONUMENT", checked: false },
+      { slug: "shared", name: "🚗 SOLMOBILES", checked: false },   
+      { slug: "dorm", name: "💜 LUV", checked: true },
+      { slug: "dorm", name: "🏟 STADIUM", checked: true }, 
       { slug: "share", name: "SHARE", checked: true },
-      { slug: "house", name: "STORE", checked: true },
-      { slug: "house", name: "BOAT", checked: true },
-      { slug: "house", name: "YACHT", checked: true } 
+      { slug: "house", name: "🏬 STORE", checked: true },
+      { slug: "house", name: "⛵️ BOAT", checked: true },
+      { slug: "house", name: "🛥 YACHT", checked: true } 
     ],
     rooms: [
       { slug: "one", name: "One", checked: false },
