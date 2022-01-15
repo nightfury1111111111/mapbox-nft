@@ -25,7 +25,7 @@ class App extends Component {
     rooms: [
       { slug: "one", name: "1 Room", checked: false },
       { slug: "two", name: "2 Rooms", checked: false },
-      { slug: "any", name: "Any Rooms", checked: true } // please check again yes
+      { slug: "any", name: "Any Rooms", checked: true } // The initial code worked, the quick fix is to copy and paste your updated 
     ],
     areas: {
       from: 30,
@@ -59,9 +59,7 @@ class App extends Component {
     let lastIndex = numberOFPlaces - 1;
 
     return (
-      <div className="app">  
-      <h1>Updated code</h1> Can you see the room errors?
-           
+      <div className="app">                  
         <div id="app-map"></div>
         
         <div className={this.getSlideClasses()}>
