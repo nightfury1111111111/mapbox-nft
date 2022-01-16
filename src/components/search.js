@@ -64,7 +64,7 @@ class Sreach extends Component {
               })}
             </div>
 
-            <h6>Rooms</h6>
+            <h6>ROOMS</h6>
 
             <div className="sc-form-group sc-grid-2">
               {rooms.map((room, index) => {
@@ -91,7 +91,7 @@ class Sreach extends Component {
               })}
             </div>
 
-            <h6>Area</h6>
+            <h6>AREA</h6>
 
             <div className="sc-form-group sc-grid-1">
               <InputRange
@@ -105,7 +105,7 @@ class Sreach extends Component {
               />
             </div>
 
-            <h6>Rent</h6>
+            <h6>RENT</h6>
 
             <div className="sc-form-group sc-grid-1">
               <InputRange
@@ -148,7 +148,7 @@ class Sreach extends Component {
               >
                 <i className="sc-icon-route"></i>
 
-                <span>Tour through the results</span>
+                <span>TOUR THROUGH THE RESULTS</span>
               </button>
             </div>
           </div>

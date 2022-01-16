@@ -37,11 +37,11 @@ class Page extends Component {
             <table className="sc-table">
               <thead>
                 <tr>
-                  <th>Type</th>
-                  <th>Rooms</th>
-                  <th>Area</th>
-                  <th>Rent</th>
-                  <th>Deposit</th>
+                  <th>TYPE</th>
+                  <th>ROOMS</th>
+                  <th>AREA</th>
+                  <th>RENT</th>
+                  <th>DONATION</th>
                 </tr>
               </thead>
 
