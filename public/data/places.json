@@ -4,9 +4,9 @@
             "type": "Feature",
             "properties": {
                 "id": "item-0",
-                "title": "Praesent ut ipsum nulla.",
-                "excert": "Orci varius natoque penatibus et magnis dis parturient montes.",
-                "description": "Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Sed euismod nisi porta lorem mollis aliquam ut porttitor leo. Morbi enim nunc faucibus a pellentesque sit amet porttitor. Turpis in eu mi bibendum neque egestas. Nibh praesent tristique magna sit amet purus. Id aliquet risus feugiat in ante metus. Curabitur gravida arcu ac tortor. Vivamus arcu felis bibendum ut tristique et egestas. Nunc non blandit massa enim nec dui nunc mattis. Eu non diam phasellus vestibulum lorem. Risus commodo viverra maecenas accumsan lacus vel.",
+                "title": "Philly NFT Estate #1",
+                "excert": "Pier 25 417 N Christopher Columbus Blvd, Philadelphia 19123",
+                "description": "Latitude 39.924740 % Longitude -75.141500. The commercial land listing is located in 417 N Columbus Blvd Philadelphia, PA 19123, and is 0.60 acres. Pier 25 North offers a unique opportunity to creative 5D LUVR developers.",
                 "images": [{
                         "original": "/assets/images/original/apartment/2/1.jpg",
                         "thumbnail": "/assets/images/thumbnail/apartment/2/1.jpg"
@@ -20,17 +20,17 @@
                         "thumbnail": "/assets/images/thumbnail/apartment/2/3.jpg"
                     }
                 ],
-                "type": "apartment",
-                "rooms": 1,
+                "type": "land",
+                "rooms": 0,
                 "area": 97,
                 "rent": 20900,
-                "deposit": 83000
+                "donation": 83000
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    5.330600738525391,
-                    60.39651540611492
+                    39.957800,
+                    -75.141500
                 ]
             }
         },
