@@ -482,11 +482,14 @@ class App extends Component {
       html: html
     });
 
+    let pageInfo={...properties};
+    pageInfo.coordinates=lnglat;
+
     document.querySelectorAll(".app-page-trigger").forEach(element => {
       element.addEventListener("click", () => {
         this.handleChangePage(true);
 
-        this.setState({ page: properties });
+        this.setState({ page: pageInfo });
       });
     });
   };

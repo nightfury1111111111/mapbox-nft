@@ -7,6 +7,7 @@ class Page extends Component {
   state = {};
   render() {
     let { page, onChangePage } = this.props;
+    console.log(page)
 
     return (
       <div
@@ -61,18 +62,21 @@ class Page extends Component {
           <div className="buttongroup">
             <button
               className="detail-page-button"
-              // disabled={disableTour}
-              // onClick={() => {
-              //   onChangeTour("start-tour");
-              // }}
+              onClick={() => {
+                alert(
+                  page.coordinates +
+                    "Let me know what functionalities I add here!"
+                );
+              }}
             >
-              {/* <i className="sc-icon-route"></i> */}
-
               <span>BUY</span>
             </button>
-            <button className="detail-page-button">
-              {/* <i className="sc-icon-route"></i> */}
-
+            <button
+              className="detail-page-button"
+              onClick={() => {
+                alert(page.coordinates+"Let me know what functionalities I add here!");
+              }}
+            >
               <span>RENT</span>
             </button>
           </div>
