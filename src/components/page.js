@@ -11,7 +11,7 @@ class Page extends Component {
     return (
       <div
         className="app-page"
-        onClick={event => {
+        onClick={(event) => {
           event.stopPropagation();
         }}
       >
@@ -58,6 +58,24 @@ class Page extends Component {
           </div>
 
           <p>{page.description}</p>
+          <div className="buttongroup">
+            <button
+              className="detail-page-button"
+              // disabled={disableTour}
+              // onClick={() => {
+              //   onChangeTour("start-tour");
+              // }}
+            >
+              {/* <i className="sc-icon-route"></i> */}
+
+              <span>BUY</span>
+            </button>
+            <button className="detail-page-button">
+              {/* <i className="sc-icon-route"></i> */}
+
+              <span>RENT</span>
+            </button>
+          </div>
         </div>
       </div>
     );

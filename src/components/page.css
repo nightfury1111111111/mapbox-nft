@@ -80,3 +80,20 @@
 .app-page .sc-table th {
   text-align: left;
 }
+
+.buttongroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.detail-page-button {
+  width: 100px;
+  color: white;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -30,7 +30,6 @@
     "url": "https://github.com/iding-ir/realestate-map/issues"
   },
   "dependencies": {
-    "fsevents": "^2.3.2",
     "mapbox-gl": "^1.5.0",
     "mapcraft": "^0.1.1",
     "react": "^16.10.2",
